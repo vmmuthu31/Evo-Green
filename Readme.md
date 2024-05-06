@@ -1,13 +1,6 @@
 # Evo-Green E-Commerce Shopping App
----
-### ⚙️ &nbsp; Time Taken to Complete this Project :
-<p align="center">
-<a href="https://wakatime.com/badge/user/f7838f29-ea5b-42c9-a473-628c7d8bc934/project/bf69fe19-66f3-47fa-99e9-f9e2926856e5"><img src="https://wakatime.com/badge/user/f7838f29-ea5b-42c9-a473-628c7d8bc934/project/bf69fe19-66f3-47fa-99e9-f9e2926856e5.svg" alt="wakatime"></a>
-</p>
 
----
-
-### If you find this project helpful, please consider giving it a star ⭐ and follow me on [GitHub](https://github.com/MehraDevesh2022) && [X](https://twitter.com/Iam_DEv22) for more exciting projects like this! 🚀
+### If you find this project helpful, please consider giving it a star ⭐ and follow me on [GitHub](https://github.com/vmmuthu31) && [X](https://twitter.com/Barfi_31) for more exciting projects like this! 🚀
 
 
 ---
@@ -15,22 +8,6 @@
 ## Introduction
 ---
 Welcome to Evo-Green, an e-commerce shopping app built using the MERN (MongoDB, Express, React, Node.js) stack and Material-UI (MUI) for the user interface. This project provides both normal user and admin modes, offering a wide range of features to enhance the shopping experience.
-
-## Demo
-
-### Normal User Area
-
-https://github.com/MehraDevesh2022/CricketWeapon-Store/assets/96515074/d8eb6147-aed7-42c5-8d1f-0afcf6d05689
-
-### Admin Area
-https://github.com/MehraDevesh2022/CricketWeapon-Store/assets/96515074/bfc07258-0a0a-4840-b277-25dceafb4795
-
-## Dummy User Accounts
-
-| Email (Normal User) | Password | Email (Admin)     | Password  |
-| ------------------- | -------- | ----------------- | --------- |
-| user2@gmail.com     | user1234 | admin@gmail.com   | admin@123 |
-| user3@gmail.comm    | user1234 | admin01@gmail.com | user1234  |
 
 ## Tech Stack
 
@@ -75,7 +52,7 @@ https://github.com/MehraDevesh2022/CricketWeapon-Store/assets/96515074/bfc07258-
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/MehraDevesh2022/CricketWeapon-Store.git
+    git clone https://github.com/vmmuthu31/Evo-Green
     cd CricketWeapon-Store
     ```
 2.  Install dependencies:
@@ -241,90 +218,4 @@ https://github.com/MehraDevesh2022/CricketWeapon-Store/assets/96515074/bfc07258-
 ## Hosting Your Complete App on Vercel
 
 This guide will walk you through the process of hosting your complete MERN stack app on Vercel using the `vercel.json` configuration.
-
-### Step 1: Prepare Your Project
-
-- Organize your project with a root directory that contains both frontend and backend folders.
-- Ensure both backend and frontend directories have all necessary code and dependencies.
-- Create a `vercel.json` file in the root directory.
-- Add the following code to `vercel.json`:
-
-  ```json
-  {
-    "version": 2,
-    "builds": [
-      {
-        "src": "./backend/server.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "./frotend/build",
-        "use": "@vercel/static"
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/backend/server.js"
-      }
-    ]
-  }
-  ```
-
-  - Note :
-    - Using this configuration will require you to run npm run build in the frontend directory before deploying to Vercel.
-    - Ensure your folder structure looks like this:
-      ```json
-        root
-        ├── backend
-        ├── frontend
-        │   ├── node_modules
-        │   ├── package.json
-        │   ├── build
-        │   └── ...
-        ├── node_modules
-        ├── package.json
-        ├── vercel.json
-        └── ...
-      ```
-
-### Step 2: Push Code to GitHub
-
-- Push all your code to GitHub, ignoring the `node_modules` folder and `.env` file.
-
-### Step 3: Create a Vercel Account
-
-- Create an account on Vercel if you haven't already.
-- Connect your GitHub account to Vercel.
-
-### Step 4: Create a Vercel Project
-
-- Create a new project in Vercel.
-- Select your GitHub repository (e.g., CricketWeapon-store).
-
-### Step 5: Configure Project Settings
-
-- Configure the project settings:
-  - Keep the settings as they are.
-  - Add all your `.env` variables in the Environment Variables section.
-
-### Step 6: Deploy Your App
-
-- Click on "Deploy" and wait for a few minutes for the deployment process to complete.
-
-### Step 7: Visit Your App
-
-- Once the deployment is successful, click on "Visit" to access your live app.
-
-### Step 8: Enjoy Your App
-
-- Congratulations! Your app is now live and accessible.
-
-## Contributions
-
-| Contributor                                           |
-| ----------------------------------------------------- |
-| [ImgBotApp](https://github.com/ImgBotApp)             |
-| [MehraDevesh2022](https://github.com/MehraDevesh2022) |
-| [0dayhunter](https://github.com/MehraDevesh2022) |
 
