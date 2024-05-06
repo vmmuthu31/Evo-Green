@@ -34,7 +34,7 @@ import {
 export const getProduct = (
   keyword = "",
   currentPage = 1,
-  price = [0, 100],
+  price = [0, 10000],
   category,
   ratings = 0
 ) => {
